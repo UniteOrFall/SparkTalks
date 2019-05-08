@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+  font-family: Lato;
+}
+/*Landing CSS */
+.landing{
+  background-image: url("/images/backgrounds/landing2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+.landing-video{
+
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.timer{
+  display: inline;
+  text-decoration: none;
+}
+.timer div{
+  display: inline-block;
+  font-size: 7.5vh;
+  padding: 1vw;
+  padding-top:1vh;
+  padding-bottom:1vh;
+
+  margin-left : 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+
+  border: 3px solid white;
+}
+.timer div span{
+  display: block;
+  font-size: 2.2vh;
+  margin: 0px;
+  padding: 0px;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(107, 7, 178,0.5) , rgba(7, 183, 150,0.7));
+  z-index: 2;
+}
+
+
+}
+.hero-box{
+  height: 40vh;
+  width:50vw;
+  background-color: rgba(0,0,0,0.6);
+}
+.spacer150{
+  height: 15vh;
+}
+.spacer50{
+  height: 7vh;
+}
+.spacer200{
+  height: 20vh;
+}
+.hero-box-l{
+  height: 40vh;
+  margin-left: 1vw;
+  font-family: 'Lobster Two'
+}
+
+/* Special THEMED WORK CSS */
+
+.landing-1{
+  background-image: url("/images/backgrounds/landing1.jpg");
+  height: 115vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center center;
+}
+.seprator200{
+  height: 20vh;
+}
