@@ -3,6 +3,7 @@
 body{
   font-family: Lato;
 }
+
 /*Landing CSS */
 .landing{
   background-image: url("/images/backgrounds/landing2.jpg");
@@ -83,3 +84,4 @@ body{
 .seprator200{
   height: 20vh;
 }
+/*************************Services*************************************/
